@@ -4,8 +4,10 @@ import "./Home.css";
 // import { useState, useEffect } from "react";
 // import { ethers } from "ethers";
 // import abi from "./constants/constants";
+import uploadSign from "./plus_addIcon.png";
 
 const Home = () => {
+  // const uploadSign = "/plus_addIcon.png";
   // const [account, setAccount] = useState("");
   // const [contract, setContract] = useState(null);
   // const [provider, setProvider] = useState(null);
@@ -70,7 +72,7 @@ const Home = () => {
             <div className="img">10</div>
           </div>
           <div className="upload-btn">
-            <img src="https://icons8.com/icon/62888/plus-math" />
+            <img src={uploadSign} />
           </div>
           {/* main workspace */}
           {/* images function implement here */}

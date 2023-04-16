@@ -170,5 +170,15 @@
   right: 0.5em;
   font-weight: bolder;
   font-size: 25px;
+  /* transition: 0.1s; */
   /* background: url("https://icons8.com/icon/62888/plus-math"); */
 }
+
+.upload-btn:hover {
+  cursor: pointer;
+  background-color: #4267fc;
+  transform: rotate(180deg);
+}
+
+/* .upload-btn img:hover {
+} */
