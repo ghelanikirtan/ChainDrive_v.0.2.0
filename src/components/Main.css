@@ -1,0 +1,16 @@
+.main {
+  position: absolute;
+  top: 11.5vh;
+  margin-top: 0.5em;
+  background-color: rgba(26, 3, 66, 0);
+
+  /* width: 100%; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  right: 0.5em;
+  left: 0.5em;
+  bottom: 0.5em;
+  position: fixed;
+  border-radius: 1em;
+}

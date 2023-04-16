@@ -1,0 +1,174 @@
+.home {
+  text-align: center;
+  display: flex;
+  background-color: #282c3400;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  /* margin: 10px; */
+  border-radius: 1em;
+}
+
+.sidemenu {
+  width: 260px;
+  padding: 10px;
+  /* border: 1px solid white; */
+  /* background-color: #202123; */
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.69),
+    rgba(0, 0, 0, 0.5)
+  );
+  border-radius: 1em;
+  margin-right: 0.5em;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding-top: 40px;
+}
+
+.sidemenu-btn {
+  width: 180px;
+  height: 50px;
+  background-color: #305fcc;
+  border-radius: 0.5em;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.sidemenu-btn:hover {
+  cursor: pointer;
+  background-color: #4b76db;
+}
+
+.child-1,
+.child-2,
+.child-3,
+.child-4 {
+  font-size: smaller;
+  letter-spacing: 2px;
+}
+
+.drive-space {
+  border-radius: 1em;
+  /* margin-right: 0.5em; */
+  flex: 1;
+  /* border: 1px solid white; */
+  background-color: #34354100;
+  position: relative;
+}
+
+.user-details {
+  /* height: inherit; */
+  background-color: rgba(255, 255, 255, 0);
+  width: 50%;
+  /* height: 4em; */
+  display: flex;
+  align-items: left;
+  justify-content: flex-start;
+  /* padding: 5px; */
+  padding: 0.3em;
+  padding-left: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0.5em;
+}
+
+.acc-logo {
+  height: 50px;
+  width: 50px;
+  /* border-radius: 50%; */
+  /* background-color: #fe9618ea; */
+  margin: 0 0.3em;
+  margin-left: 0.15em;
+  background-image: url("./metamask-icon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.acc-address {
+  margin: 0 0.5em;
+  font-size: 1.1em;
+  /* height: 50px; */
+  background-color: #202123;
+  height: 50px;
+  /* width: 50%; */
+  border-radius: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.drive-space-main {
+  /* background-color: rgb(69, 3, 97); */
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.69),
+    rgba(0, 0, 0, 0.5)
+  );
+  backdrop-filter: blur(5px);
+  height: 91.5%;
+
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: right; */
+  /* align-items: end; */
+  border-radius: 1em;
+  /* position: relative; */
+  /* padding: 1em; */
+}
+
+.drive-space-container {
+  margin-top: 0.5em;
+  top: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: top;
+}
+
+.img {
+  height: 200px;
+  width: 200px;
+  background-color: rgba(181, 217, 250, 0.808);
+  margin: 1em;
+  border-radius: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+}
+
+.img:hover {
+  cursor: pointer;
+  background-color: rgba(106, 179, 247, 0.808);
+}
+
+.upload-btn {
+  height: 2.5em;
+  width: 2.5em;
+  border-radius: 50%;
+  /* font-size: 50px; */
+  background-color: #0134ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  bottom: 0.5em;
+  right: 0.5em;
+  font-weight: bolder;
+  font-size: 25px;
+  /* background: url("https://icons8.com/icon/62888/plus-math"); */
+}
